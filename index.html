@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <!-- meta -->
+    <!-- Primary Meta Tags -->
+    <title>Formulario de Pagos</title>
+    <meta name="title" content="Formulario de Pagos">
+    <meta name="description"
+        content="Una opción ideal para realizar pagos importantes de un amanera sencilla pero completa, todo con un diseño elegante">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Formulario de Pagos">
+    <meta property="og:description"
+        content="Una opción ideal para realizar pagos importantes de un amanera sencilla pero completa, todo con un diseño elegante">
+    <meta property="og:image"
+        content="./assets/img/logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Formulario de Pagos">
+    <meta property="twitter:description"
+        content="Una opción ideal para realizar pagos importantes de un amanera sencilla pero completa, todo con un diseño elegante">
+    <meta property="twitter:image"
+        content="./assets/img/logo.png">
+    <!-- icon -->
+    <link rel="icon" href="./assets/img/logo-png.webp">
+</head>
+
+<body>
+    <main>
+        <div class="wrapper">
+            <div class="form-cont">
+                <img src="./assets/img/logo-form.webp" width='40px' alt="logo del formulario">
+                <h1 class="h1-t1 t-centrado">Información de pago</h1>
+
+                <form action="" class="formulario">
+                    <div class="campo c_nombre">
+                        <label class="c_nombre--l" for="nombre">Nombre completo</label>
+                        <input class="campo--i c_nombre--i" type="text" id="nombre" placeholder="Alex Montoya" required>
+                    </div>
+                    <div class="campo c_numero">
+                        <label class="c_numero--l" for="numero">Número de Tarjeta de Crédito</label>
+                        <input class="campo--i c_numero--i" type="text" id="numero" placeholder="XXXX XXXX XXXX XXXX"
+                            required>
+                    </div>
+                    <div class="campo-cont">
+                        <div class="campo c_fecha">
+                            <label class="c_fecha--l" for="fecha">Fecha de Vencimiento</label>
+                            <input class="campo--i c_fecha--i" type="text" id="fecha" placeholder="MM/YY" required>
+                        </div>
+                        <div class="campo c_codigo">
+                            <label class="c_codigo--l" for="codigo">CVV</label>
+                            <input class="campo--i c_codigo--i" type="text" id="codigo" placeholder="···" required>
+                        </div>
+                    </div>
+                    <div class="campo c_direccion">
+                        <label class="c_direccion--l" for="direccion">Dirección</label>
+                        <input class="campo--i c_direccion--i" type="text" id="direccion"
+                            placeholder="Av. Morelos #1234" required>
+                    </div>
+                    <div class="campo c_direccion">
+                        <input class="campo--button bg-off c_direccion--i" type="submit" id="submit"
+                            value="Confirmar Pago" required>
+                    </div>
+                    <p class="p-t1 t-centrado">Verifica que esta información es correcta</p>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+    <script src="./assets/js/app.min.js"></script>
+
+</body>
+
+</html>

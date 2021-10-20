@@ -1,2 +1,152 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");html{box-sizing:border-box;font-size:62.5%}*,:after,:before{box-sizing:inherit;margin:0;scroll-behavior:smooth}body{background-color:#10003f;color:#fff;font-family:Roboto,sans-serif;z-index:1}main{display:grid;height:100vh}.wrapper{display:block;margin:auto;width:33rem}.h1-t1{color:#000;font:700 2rem/2.5rem Roboto,sans-serif}.p-t1{font:1.2rem/1.6rem Roboto,sans-serif}label{font:700 1.4rem/1.9rem Roboto,sans-serif}input{font:1.4rem/1.9rem Roboto,sans-serif}.p-t1{color:#3e3e3e}.t-centrado{text-align:center}.bg-on{background-color:#f8077c}.bg-on:hover{cursor:pointer}.bg-off{background-color:#f5a8cd}.bg-red{background-color:#f5a8cd!important}.form-cont{background-color:#fff;border-radius:1.5rem;display:flex;flex-direction:column;gap:1rem;padding:3rem 1rem}.form-cont img{border-radius:50%;display:block;margin:0 auto}.formulario{gap:1.2rem;padding-top:1rem}.formulario,.formulario .campo{display:flex;flex-direction:column}.formulario .campo{color:#3e3e3e;overflow:auto}.formulario .campo-cont{display:grid;gap:1rem;grid-template-columns:1fr 1fr}.campo label{margin:0 1rem}.campo input{border-radius:1rem;padding:1rem}.campo .campo--i{border:1px solid #e0e0e0;filter:drop-shadow(0 0 .5rem #E0E0E0);margin:1rem}.campo .campo--i:focus{outline:none}.campo .campo--i:valid{background-color:#e8f0fe}.campo .campo--button{border:none;color:#fff;font-weight:500;margin:0 1rem;transition:1s ease}.c_numero--i{background:url(../img/credit-card.webp);background-position:96%;background-repeat:no-repeat;background-size:2rem}.c_codigo--i{background:url(../img/cvv.webp);background-position:91%;background-repeat:no-repeat;background-size:1.7rem}.c_fecha--l{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:14rem}@media (min-width:768px){.c_fecha--l{overflow:auto;text-overflow:unset;white-space:unset;width:auto}}.c_fecha--i,.c_fecha--l{margin-right:0!important}.c_codigo--i,.c_codigo--l{margin-left:0!important}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #10003f;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  z-index: 1;
+}
+main {
+  display: grid;
+  height: 100vh;
+}
+.wrapper {
+  display: block;
+  margin: auto;
+  width: 33rem;
+}
+.h1-t1 {
+  color: #000;
+  font: 700 2rem/2.5rem Roboto, sans-serif;
+}
+.p-t1 {
+  font: 1.2rem/1.6rem Roboto, sans-serif;
+}
+label {
+  font: 700 1.4rem/1.9rem Roboto, sans-serif;
+}
+input {
+  font: 1.4rem/1.9rem Roboto, sans-serif;
+}
+.p-t1 {
+  color: #3e3e3e;
+}
+.t-centrado {
+  text-align: center;
+}
+.bg-on {
+  background-color: #f8077c;
+}
+.bg-on:hover {
+  cursor: pointer;
+}
+.bg-off {
+  background-color: #f5a8cd;
+}
+.bg-red {
+  background-color: #f5a8cd !important;
+}
+.form-cont {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem 1rem;
+}
+.form-cont img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.formulario {
+  gap: 1.2rem;
+  padding-top: 1rem;
+}
+.formulario,
+.formulario .campo {
+  display: flex;
+  flex-direction: column;
+}
+.formulario .campo {
+  color: #3e3e3e;
+  overflow: auto;
+}
+.formulario .campo-cont {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+.campo label {
+  margin: 0 1rem;
+}
+.campo input {
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.campo .campo--i {
+  border: 1px solid #e0e0e0;
+  filter: drop-shadow(0 0 0.5rem #e0e0e0);
+  margin: 1rem;
+}
+.campo .campo--i:focus {
+  outline: none;
+}
+.campo .campo--i:valid {
+  background-color: #e8f0fe;
+}
+.campo .campo--button {
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 1rem;
+  transition: 1s ease;
+}
+.c_numero--i {
+  background: url(../img/credit-card.webp);
+  background-position: 96%;
+  background-repeat: no-repeat;
+  background-size: 2rem;
+}
+.c_codigo--i {
+  background: url(../img/cvv.webp);
+  background-position: 91%;
+  background-repeat: no-repeat;
+  background-size: 1.7rem;
+}
+.c_fecha--l {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 14rem;
+}
+@media (min-width: 768px) {
+  .c_fecha--l {
+    overflow: auto;
+    text-overflow: unset;
+    white-space: unset;
+    width: auto;
+  }
+}
+.c_fecha--i,
+.c_fecha--l {
+  margin-right: 0 !important;
+}
+.c_codigo--i,
+.c_codigo--l {
+  margin-left: 0 !important;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+}
 /*# sourceMappingURL=app.css.map */
